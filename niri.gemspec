@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "niri"
-  spec.version       = "0.1"
+  spec.version       = "1.1"
   spec.authors       = ["rokhimin Wahid"]
   spec.email         = ["rokhim.whd@gmail.com"]
 
-  spec.summary       = "Theme for jekyll using Bulma"
+  spec.summary       = "jekyll Theme Blog using Bulma"
   spec.homepage      = "https://github.com/rokhimin/Niri"
   spec.license       = "MIT"
 
