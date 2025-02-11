@@ -1,0 +1,22 @@
+
+title: whdzera
+email: whdzera@gmail.com
+description: >
+  My Private blog for diary, notes, and any more.
+baseurl: ""
+url: ""
+
+markdown: kramdown
+
+twitterUsername: whdzera
+githubUsername: rokhimin
+
+themeColor: default
+fixedNav: 'true'
+
+permalink: /:title.rb
+markdown: kramdown
+include: [_pages]
+exclude: [_site, LICENSE, README.md]
+sass:
+  style: compressed
