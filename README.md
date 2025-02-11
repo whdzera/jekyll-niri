@@ -2,7 +2,7 @@
 ![](https://i.ibb.co.com/sdVSmQ5x/niri-logo.png)
 # Niri
 Theme for jekyll using Bulma
-
+Live Demo : https://rokhimin.github.io/Niri
 
 ## Installation Jekyll
 
