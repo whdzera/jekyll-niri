@@ -3,7 +3,7 @@
 # Niri
 Theme for jekyll using Bulma.
 
-Live Demo : https://rokhimin.github.io/Niri
+Live Demo : https://rokhimin.github.io/jekyll-niri
 
 ## Installation Jekyll
 
