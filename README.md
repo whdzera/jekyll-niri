@@ -1,8 +1,22 @@
-# niri
 
+![](https://i.ibb.co.com/sdVSmQ5x/niri-logo.png)
+# Niri
 Theme for jekyll using Bulma
 
-## Installation
+
+## Installation Jekyll
+
+    $ gem install jekyll
+
+
+create first app
+
+    $ jekyll new yournameapp
+
+
+## Installation Theme 
+
+Installation theme Niri to your jekyll app
 
 Add this line to your Jekyll site's `Gemfile`:
 
@@ -20,13 +34,14 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
 
-    $ gem install niri
+Run jekyll:
 
-## Usage
+    $ bundle exec jekyll s
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+## Misc
+
+Create file 'projects.markdown' to use page Projects.
 
 ## Contributing
 

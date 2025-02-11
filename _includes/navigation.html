@@ -1,10 +1,11 @@
 <nav class="navbar has-background-black-ter" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="/">
-    <img src="https://i.ibb.co.com/sdVSmQ5x/niri-logo.png" style="width:100%;"  ></img>
+    <img src="https://i.ibb.co.com/sdVSmQ5x/niri-logo.png" style="width:100%;"></img>
+    </a>
   </div>
   <div class="navbar-menu has-background-black-ter is-active">
-    <div class="navbar-end ">
+    <div class="navbar-end">
       <a class="navbar-item {% if page.url == '/' %}is-active{% endif %}" href="{{ '/' | prepend: site.baseurl }}">
         Home
       </a>
@@ -16,7 +17,6 @@
       <a class="navbar-item {% if page.url == '/about/' %}is-active{% endif %}" href="{{ '/about/' | prepend: site.baseurl }}">
         About
       </a>
-      </div>
     </div>
   </div>
 </nav>
