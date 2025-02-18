@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Niri</title>
+    <description>Niri Jekyll Theme Blog using Bulma</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 18 Feb 2025 12:31:13 +0700</pubDate>
+    <lastBuildDate>Tue, 18 Feb 2025 12:31:13 +0700</lastBuildDate>
+    <generator>Jekyll v4.4.1</generator>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 11 Feb 2025 20:12:31 +0700</pubDate>
+        <link>http://localhost:4000/jekyll/update/2025/02/11/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2025/02/11/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>minimama lakana</title>
+        <description>&lt;h3 id=&quot;lorem-ipsum&quot;&gt;Lorem ipsum&lt;/h3&gt;
+&lt;p&gt;odor amet, consectetuer adipiscing elit. Mus dis hendrerit aptent pharetra condimentum purus potenti. Ornare sed fames sapien, aliquam hendrerit nibh cursus porta. Malesuada suspendisse elit; nec et commodo et. Facilisi tortor duis penatibus pharetra, finibus arcu nostra malesuada. Volutpat primis fames primis convallis imperdiet vivamus. Nulla quam rhoncus morbi ultrices torquent consequat faucibus egestas aptent. Nascetur eleifend neque dapibus magnis congue arcu.&lt;/p&gt;
+
+&lt;h3 id=&quot;pulvinar&quot;&gt;Pulvinar&lt;/h3&gt;
+&lt;p&gt;aliquam ex ullamcorper quam risus quis platea. Tempor at volutpat; nisi sodales cras eu velit ultrices. Sollicitudin euismod gravida arcu; etiam inceptos fermentum metus interdum. Vestibulum in sociosqu tellus ac erat nibh, adipiscing scelerisque arcu. Congue nulla nibh luctus fermentum; duis integer facilisi. In sagittis semper venenatis nisl felis a. Viverra dui consectetur eget porta bibendum vulputate nibh. Sit lobortis mus netus non class. Mauris lacus cras rhoncus aliquet ad iaculis ultricies imperdiet.&lt;/p&gt;
+
+&lt;h4 id=&quot;lacus&quot;&gt;Lacus&lt;/h4&gt;
+&lt;p&gt;facilisi morbi maecenas ultrices conubia vehicula a. Montes cras nisi laoreet; pharetra torquent quisque. Nec lacus lacus ullamcorper est nam tristique et lacinia. Vulputate tristique fringilla senectus mi sit magna libero. Mattis amet proin enim pretium augue lobortis. Bibendum imperdiet sed lacinia ornare dictum dis amet fusce molestie. Ultricies molestie maximus non habitant rutrum nullam vehicula massa porttitor. Condimentum mi ornare rhoncus egestas penatibus arcu id netus. Mi per diam sed cursus orci venenatis, ultricies augue dapibus. Amet lacinia mollis fames ligula natoque justo?&lt;/p&gt;
+
+&lt;h3 id=&quot;purus-blandit&quot;&gt;Purus blandit&lt;/h3&gt;
+&lt;p&gt;arcu dui urna efficitur neque. Tristique urna netus dui ullamcorper pellentesque mauris dictumst. Turpis augue proin amet mollis aptent dis molestie dignissim. Turpis felis conubia eros amet, augue cras curabitur adipiscing. Efficitur porta faucibus at suspendisse elementum dui. Odio dui mi ut nunc semper duis non. Rutrum litora ornare fusce dis rhoncus elit varius fames.&lt;/p&gt;
+
+&lt;h3 id=&quot;bibendum&quot;&gt;Bibendum&lt;/h3&gt;
+&lt;p&gt;arcu taciti himenaeos ullamcorper habitasse. Himenaeos potenti gravida euismod ante cursus natoque. Dui facilisis primis pretium ridiculus euismod ad himenaeos maximus maecenas. Ultrices class leo class posuere aliquet non nascetur. Mi in ultricies libero blandit netus potenti dapibus sed. Nisi libero eros vivamus suscipit fames quis condimentum. Dictumst consequat aliquam sagittis; tempor placerat nulla. Primis vel diam varius nulla ut penatibus netus consectetur. Est elit quisque curabitur primis imperdiet per lacus vestibulum elit.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 11 Aug 2022 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/projects/2022/08/11/minimama-lakana.html</link>
+        <guid isPermaLink="true">http://localhost:4000/projects/2022/08/11/minimama-lakana.html</guid>
+        
+        
+        <category>projects</category>
+        
+      </item>
+    
+      <item>
+        <title>consectetuer adipiscing</title>
+        <description>&lt;h3 id=&quot;lorem-ipsum&quot;&gt;Lorem ipsum&lt;/h3&gt;
+&lt;p&gt;odor amet, consectetuer adipiscing elit. Mus dis hendrerit aptent pharetra condimentum purus potenti. Ornare sed fames sapien, aliquam hendrerit nibh cursus porta. Malesuada suspendisse elit; nec et commodo et. Facilisi tortor duis penatibus pharetra, finibus arcu nostra malesuada. Volutpat primis fames primis convallis imperdiet vivamus. Nulla quam rhoncus morbi ultrices torquent consequat faucibus egestas aptent. Nascetur eleifend neque dapibus magnis congue arcu.&lt;/p&gt;
+
+&lt;h3 id=&quot;pulvinar&quot;&gt;Pulvinar&lt;/h3&gt;
+&lt;p&gt;aliquam ex ullamcorper quam risus quis platea. Tempor at volutpat; nisi sodales cras eu velit ultrices. Sollicitudin euismod gravida arcu; etiam inceptos fermentum metus interdum. Vestibulum in sociosqu tellus ac erat nibh, adipiscing scelerisque arcu. Congue nulla nibh luctus fermentum; duis integer facilisi. In sagittis semper venenatis nisl felis a. Viverra dui consectetur eget porta bibendum vulputate nibh. Sit lobortis mus netus non class. Mauris lacus cras rhoncus aliquet ad iaculis ultricies imperdiet.&lt;/p&gt;
+
+&lt;h4 id=&quot;lacus&quot;&gt;Lacus&lt;/h4&gt;
+&lt;p&gt;facilisi morbi maecenas ultrices conubia vehicula a. Montes cras nisi laoreet; pharetra torquent quisque. Nec lacus lacus ullamcorper est nam tristique et lacinia. Vulputate tristique fringilla senectus mi sit magna libero. Mattis amet proin enim pretium augue lobortis. Bibendum imperdiet sed lacinia ornare dictum dis amet fusce molestie. Ultricies molestie maximus non habitant rutrum nullam vehicula massa porttitor. Condimentum mi ornare rhoncus egestas penatibus arcu id netus. Mi per diam sed cursus orci venenatis, ultricies augue dapibus. Amet lacinia mollis fames ligula natoque justo?&lt;/p&gt;
+
+&lt;h3 id=&quot;purus-blandit&quot;&gt;Purus blandit&lt;/h3&gt;
+&lt;p&gt;arcu dui urna efficitur neque. Tristique urna netus dui ullamcorper pellentesque mauris dictumst. Turpis augue proin amet mollis aptent dis molestie dignissim. Turpis felis conubia eros amet, augue cras curabitur adipiscing. Efficitur porta faucibus at suspendisse elementum dui. Odio dui mi ut nunc semper duis non. Rutrum litora ornare fusce dis rhoncus elit varius fames.&lt;/p&gt;
+
+&lt;h3 id=&quot;bibendum&quot;&gt;Bibendum&lt;/h3&gt;
+&lt;p&gt;arcu taciti himenaeos ullamcorper habitasse. Himenaeos potenti gravida euismod ante cursus natoque. Dui facilisis primis pretium ridiculus euismod ad himenaeos maximus maecenas. Ultrices class leo class posuere aliquet non nascetur. Mi in ultricies libero blandit netus potenti dapibus sed. Nisi libero eros vivamus suscipit fames quis condimentum. Dictumst consequat aliquam sagittis; tempor placerat nulla. Primis vel diam varius nulla ut penatibus netus consectetur. Est elit quisque curabitur primis imperdiet per lacus vestibulum elit.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 11 Aug 2022 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/projects/2022/08/11/consectetuer-adipiscing.html</link>
+        <guid isPermaLink="true">http://localhost:4000/projects/2022/08/11/consectetuer-adipiscing.html</guid>
+        
+        
+        <category>projects</category>
+        
+      </item>
+    
+      <item>
+        <title>Lorem Ipsum</title>
+        <description>&lt;h3 id=&quot;lorem-ipsum&quot;&gt;Lorem ipsum&lt;/h3&gt;
+&lt;p&gt;odor amet, consectetuer adipiscing elit. Mus dis hendrerit aptent pharetra condimentum purus potenti. Ornare sed fames sapien, aliquam hendrerit nibh cursus porta. Malesuada suspendisse elit; nec et commodo et. Facilisi tortor duis penatibus pharetra, finibus arcu nostra malesuada. Volutpat primis fames primis convallis imperdiet vivamus. Nulla quam rhoncus morbi ultrices torquent consequat faucibus egestas aptent. Nascetur eleifend neque dapibus magnis congue arcu.&lt;/p&gt;
+
+&lt;h3 id=&quot;pulvinar&quot;&gt;Pulvinar&lt;/h3&gt;
+&lt;p&gt;aliquam ex ullamcorper quam risus quis platea. Tempor at volutpat; nisi sodales cras eu velit ultrices. Sollicitudin euismod gravida arcu; etiam inceptos fermentum metus interdum. Vestibulum in sociosqu tellus ac erat nibh, adipiscing scelerisque arcu. Congue nulla nibh luctus fermentum; duis integer facilisi. In sagittis semper venenatis nisl felis a. Viverra dui consectetur eget porta bibendum vulputate nibh. Sit lobortis mus netus non class. Mauris lacus cras rhoncus aliquet ad iaculis ultricies imperdiet.&lt;/p&gt;
+
+&lt;h4 id=&quot;lacus&quot;&gt;Lacus&lt;/h4&gt;
+&lt;p&gt;facilisi morbi maecenas ultrices conubia vehicula a. Montes cras nisi laoreet; pharetra torquent quisque. Nec lacus lacus ullamcorper est nam tristique et lacinia. Vulputate tristique fringilla senectus mi sit magna libero. Mattis amet proin enim pretium augue lobortis. Bibendum imperdiet sed lacinia ornare dictum dis amet fusce molestie. Ultricies molestie maximus non habitant rutrum nullam vehicula massa porttitor. Condimentum mi ornare rhoncus egestas penatibus arcu id netus. Mi per diam sed cursus orci venenatis, ultricies augue dapibus. Amet lacinia mollis fames ligula natoque justo?&lt;/p&gt;
+
+&lt;h3 id=&quot;purus-blandit&quot;&gt;Purus blandit&lt;/h3&gt;
+&lt;p&gt;arcu dui urna efficitur neque. Tristique urna netus dui ullamcorper pellentesque mauris dictumst. Turpis augue proin amet mollis aptent dis molestie dignissim. Turpis felis conubia eros amet, augue cras curabitur adipiscing. Efficitur porta faucibus at suspendisse elementum dui. Odio dui mi ut nunc semper duis non. Rutrum litora ornare fusce dis rhoncus elit varius fames.&lt;/p&gt;
+
+&lt;h3 id=&quot;bibendum&quot;&gt;Bibendum&lt;/h3&gt;
+&lt;p&gt;arcu taciti himenaeos ullamcorper habitasse. Himenaeos potenti gravida euismod ante cursus natoque. Dui facilisis primis pretium ridiculus euismod ad himenaeos maximus maecenas. Ultrices class leo class posuere aliquet non nascetur. Mi in ultricies libero blandit netus potenti dapibus sed. Nisi libero eros vivamus suscipit fames quis condimentum. Dictumst consequat aliquam sagittis; tempor placerat nulla. Primis vel diam varius nulla ut penatibus netus consectetur. Est elit quisque curabitur primis imperdiet per lacus vestibulum elit.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 11 Aug 2019 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/projects/2019/08/11/lorem-ipsum.html</link>
+        <guid isPermaLink="true">http://localhost:4000/projects/2019/08/11/lorem-ipsum.html</guid>
+        
+        
+        <category>projects</category>
+        
+      </item>
+    
+      <item>
+        <title>per lacus vestibulum elit</title>
+        <description>&lt;h3 id=&quot;lorem-ipsum&quot;&gt;Lorem ipsum&lt;/h3&gt;
+&lt;p&gt;odor amet, consectetuer adipiscing elit. Mus dis hendrerit aptent pharetra condimentum purus potenti. Ornare sed fames sapien, aliquam hendrerit nibh cursus porta. Malesuada suspendisse elit; nec et commodo et. Facilisi tortor duis penatibus pharetra, finibus arcu nostra malesuada. Volutpat primis fames primis convallis imperdiet vivamus. Nulla quam rhoncus morbi ultrices torquent consequat faucibus egestas aptent. Nascetur eleifend neque dapibus magnis congue arcu.&lt;/p&gt;
+
+&lt;h3 id=&quot;pulvinar&quot;&gt;Pulvinar&lt;/h3&gt;
+&lt;p&gt;aliquam ex ullamcorper quam risus quis platea. Tempor at volutpat; nisi sodales cras eu velit ultrices. Sollicitudin euismod gravida arcu; etiam inceptos fermentum metus interdum. Vestibulum in sociosqu tellus ac erat nibh, adipiscing scelerisque arcu. Congue nulla nibh luctus fermentum; duis integer facilisi. In sagittis semper venenatis nisl felis a. Viverra dui consectetur eget porta bibendum vulputate nibh. Sit lobortis mus netus non class. Mauris lacus cras rhoncus aliquet ad iaculis ultricies imperdiet.&lt;/p&gt;
+
+&lt;h4 id=&quot;lacus&quot;&gt;Lacus&lt;/h4&gt;
+&lt;p&gt;facilisi morbi maecenas ultrices conubia vehicula a. Montes cras nisi laoreet; pharetra torquent quisque. Nec lacus lacus ullamcorper est nam tristique et lacinia. Vulputate tristique fringilla senectus mi sit magna libero. Mattis amet proin enim pretium augue lobortis. Bibendum imperdiet sed lacinia ornare dictum dis amet fusce molestie. Ultricies molestie maximus non habitant rutrum nullam vehicula massa porttitor. Condimentum mi ornare rhoncus egestas penatibus arcu id netus. Mi per diam sed cursus orci venenatis, ultricies augue dapibus. Amet lacinia mollis fames ligula natoque justo?&lt;/p&gt;
+
+&lt;h3 id=&quot;purus-blandit&quot;&gt;Purus blandit&lt;/h3&gt;
+&lt;p&gt;arcu dui urna efficitur neque. Tristique urna netus dui ullamcorper pellentesque mauris dictumst. Turpis augue proin amet mollis aptent dis molestie dignissim. Turpis felis conubia eros amet, augue cras curabitur adipiscing. Efficitur porta faucibus at suspendisse elementum dui. Odio dui mi ut nunc semper duis non. Rutrum litora ornare fusce dis rhoncus elit varius fames.&lt;/p&gt;
+
+&lt;h3 id=&quot;bibendum&quot;&gt;Bibendum&lt;/h3&gt;
+&lt;p&gt;arcu taciti himenaeos ullamcorper habitasse. Himenaeos potenti gravida euismod ante cursus natoque. Dui facilisis primis pretium ridiculus euismod ad himenaeos maximus maecenas. Ultrices class leo class posuere aliquet non nascetur. Mi in ultricies libero blandit netus potenti dapibus sed. Nisi libero eros vivamus suscipit fames quis condimentum. Dictumst consequat aliquam sagittis; tempor placerat nulla. Primis vel diam varius nulla ut penatibus netus consectetur. Est elit quisque curabitur primis imperdiet per lacus vestibulum elit.&lt;/p&gt;
+
+&lt;h4 id=&quot;lacus-1&quot;&gt;Lacus&lt;/h4&gt;
+&lt;p&gt;facilisi morbi maecenas ultrices conubia vehicula a. Montes cras nisi laoreet; pharetra torquent quisque. Nec lacus lacus ullamcorper est nam tristique et lacinia. Vulputate tristique fringilla senectus mi sit magna libero. Mattis amet proin enim pretium augue lobortis. Bibendum imperdiet sed lacinia ornare dictum dis amet fusce molestie. Ultricies molestie maximus non habitant rutrum nullam vehicula massa porttitor. Condimentum mi ornare rhoncus egestas penatibus arcu id netus. Mi per diam sed cursus orci venenatis, ultricies augue dapibus. Amet lacinia mollis fames ligula natoque justo?&lt;/p&gt;
+
+&lt;h3 id=&quot;purus-blandit-1&quot;&gt;Purus blandit&lt;/h3&gt;
+&lt;p&gt;arcu dui urna efficitur neque. Tristique urna netus dui ullamcorper pellentesque mauris dictumst. Turpis augue proin amet mollis aptent dis molestie dignissim. Turpis felis conubia eros amet, augue cras curabitur adipiscing. Efficitur porta faucibus at suspendisse elementum dui. Odio dui mi ut nunc semper duis non. Rutrum litora ornare fusce dis rhoncus elit varius fames.&lt;/p&gt;
+
+&lt;h3 id=&quot;bibendum-1&quot;&gt;Bibendum&lt;/h3&gt;
+&lt;p&gt;arcu taciti himenaeos ullamcorper habitasse. Himenaeos potenti gravida euismod ante cursus natoque. Dui facilisis primis pretium ridiculus euismod ad himenaeos maximus maecenas. Ultrices class leo class posuere aliquet non nascetur. Mi in ultricies libero blandit netus potenti dapibus sed. Nisi libero eros vivamus suscipit fames quis condimentum. Dictumst consequat aliquam sagittis; tempor placerat nulla. Primis vel diam varius nulla ut penatibus netus consectetur. Est elit quisque curabitur primis imperdiet per lacus vestibulum elit.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 04 Aug 2019 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/tutorials/2019/08/04/per-lacus-vestibulum-elit.html</link>
+        <guid isPermaLink="true">http://localhost:4000/tutorials/2019/08/04/per-lacus-vestibulum-elit.html</guid>
+        
+        
+        <category>tutorials</category>
+        
+      </item>
+    
+      <item>
+        <title>ullamcorper quam risus quis platea</title>
+        <description>&lt;h3 id=&quot;lorem-ipsum&quot;&gt;Lorem ipsum&lt;/h3&gt;
+&lt;p&gt;odor amet, consectetuer adipiscing elit. Mus dis hendrerit aptent pharetra condimentum purus potenti. Ornare sed fames sapien, aliquam hendrerit nibh cursus porta. Malesuada suspendisse elit; nec et commodo et. Facilisi tortor duis penatibus pharetra, finibus arcu nostra malesuada. Volutpat primis fames primis convallis imperdiet vivamus. Nulla quam rhoncus morbi ultrices torquent consequat faucibus egestas aptent. Nascetur eleifend neque dapibus magnis congue arcu.&lt;/p&gt;
+
+&lt;h3 id=&quot;pulvinar&quot;&gt;Pulvinar&lt;/h3&gt;
+&lt;p&gt;aliquam ex ullamcorper quam risus quis platea. Tempor at volutpat; nisi sodales cras eu velit ultrices. Sollicitudin euismod gravida arcu; etiam inceptos fermentum metus interdum. Vestibulum in sociosqu tellus ac erat nibh, adipiscing scelerisque arcu. Congue nulla nibh luctus fermentum; duis integer facilisi. In sagittis semper venenatis nisl felis a. Viverra dui consectetur eget porta bibendum vulputate nibh. Sit lobortis mus netus non class. Mauris lacus cras rhoncus aliquet ad iaculis ultricies imperdiet.&lt;/p&gt;
+
+&lt;h4 id=&quot;lacus&quot;&gt;Lacus&lt;/h4&gt;
+&lt;p&gt;facilisi morbi maecenas ultrices conubia vehicula a. Montes cras nisi laoreet; pharetra torquent quisque. Nec lacus lacus ullamcorper est nam tristique et lacinia. Vulputate tristique fringilla senectus mi sit magna libero. Mattis amet proin enim pretium augue lobortis. Bibendum imperdiet sed lacinia ornare dictum dis amet fusce molestie. Ultricies molestie maximus non habitant rutrum nullam vehicula massa porttitor. Condimentum mi ornare rhoncus egestas penatibus arcu id netus. Mi per diam sed cursus orci venenatis, ultricies augue dapibus. Amet lacinia mollis fames ligula natoque justo?&lt;/p&gt;
+
+&lt;h3 id=&quot;purus-blandit&quot;&gt;Purus blandit&lt;/h3&gt;
+&lt;p&gt;arcu dui urna efficitur neque. Tristique urna netus dui ullamcorper pellentesque mauris dictumst. Turpis augue proin amet mollis aptent dis molestie dignissim. Turpis felis conubia eros amet, augue cras curabitur adipiscing. Efficitur porta faucibus at suspendisse elementum dui. Odio dui mi ut nunc semper duis non. Rutrum litora ornare fusce dis rhoncus elit varius fames.&lt;/p&gt;
+
+&lt;h3 id=&quot;bibendum&quot;&gt;Bibendum&lt;/h3&gt;
+&lt;p&gt;arcu taciti himenaeos ullamcorper habitasse. Himenaeos potenti gravida euismod ante cursus natoque. Dui facilisis primis pretium ridiculus euismod ad himenaeos maximus maecenas. Ultrices class leo class posuere aliquet non nascetur. Mi in ultricies libero blandit netus potenti dapibus sed. Nisi libero eros vivamus suscipit fames quis condimentum. Dictumst consequat aliquam sagittis; tempor placerat nulla. Primis vel diam varius nulla ut penatibus netus consectetur. Est elit quisque curabitur primis imperdiet per lacus vestibulum elit.&lt;/p&gt;
+
+&lt;h4 id=&quot;lacus-1&quot;&gt;Lacus&lt;/h4&gt;
+&lt;p&gt;facilisi morbi maecenas ultrices conubia vehicula a. Montes cras nisi laoreet; pharetra torquent quisque. Nec lacus lacus ullamcorper est nam tristique et lacinia. Vulputate tristique fringilla senectus mi sit magna libero. Mattis amet proin enim pretium augue lobortis. Bibendum imperdiet sed lacinia ornare dictum dis amet fusce molestie. Ultricies molestie maximus non habitant rutrum nullam vehicula massa porttitor. Condimentum mi ornare rhoncus egestas penatibus arcu id netus. Mi per diam sed cursus orci venenatis, ultricies augue dapibus. Amet lacinia mollis fames ligula natoque justo?&lt;/p&gt;
+
+&lt;h3 id=&quot;purus-blandit-1&quot;&gt;Purus blandit&lt;/h3&gt;
+&lt;p&gt;arcu dui urna efficitur neque. Tristique urna netus dui ullamcorper pellentesque mauris dictumst. Turpis augue proin amet mollis aptent dis molestie dignissim. Turpis felis conubia eros amet, augue cras curabitur adipiscing. Efficitur porta faucibus at suspendisse elementum dui. Odio dui mi ut nunc semper duis non. Rutrum litora ornare fusce dis rhoncus elit varius fames.&lt;/p&gt;
+
+&lt;h3 id=&quot;bibendum-1&quot;&gt;Bibendum&lt;/h3&gt;
+&lt;p&gt;arcu taciti himenaeos ullamcorper habitasse. Himenaeos potenti gravida euismod ante cursus natoque. Dui facilisis primis pretium ridiculus euismod ad himenaeos maximus maecenas. Ultrices class leo class posuere aliquet non nascetur. Mi in ultricies libero blandit netus potenti dapibus sed. Nisi libero eros vivamus suscipit fames quis condimentum. Dictumst consequat aliquam sagittis; tempor placerat nulla. Primis vel diam varius nulla ut penatibus netus consectetur. Est elit quisque curabitur primis imperdiet per lacus vestibulum elit.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 04 Aug 2019 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/tutorials/2019/08/04/ullamcorper-quam-risus-quis-platea.html</link>
+        <guid isPermaLink="true">http://localhost:4000/tutorials/2019/08/04/ullamcorper-quam-risus-quis-platea.html</guid>
+        
+        
+        <category>tutorials</category>
+        
+      </item>
+    
+  </channel>
+</rss>
