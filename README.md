@@ -1,7 +1,7 @@
+<img src="https://i.ibb.co.com/sdVSmQ5x/niri-logo.png" alt="drawing" width="300"/>
 
-![](https://i.ibb.co.com/sdVSmQ5x/niri-logo.png)
-# Niri
-Theme for jekyll using Bulma.
+# About
+Theme blog for jekyll using Bulma css.
 
 Live Demo : https://rokhimin.github.io/jekyll-niri
 
@@ -40,13 +40,40 @@ Run jekyll:
 
     $ bundle exec jekyll s
 
-## Misc
+## Setup
 
-Create file 'projects.markdown' to use page Projects.
+##### copy to _config.yml
+
+```yaml
+title: Niri
+email: youremail@gmail.com
+description: yourdesc
+baseurl: "" 
+url: "" 
+footer: Example Theme <a href="https://github.com/rokhimin/jekyll-niri">Niri</a> [/code] by whdzera
+twitter_username: whdzera
+github_username:  rokhimin
+logo: niri-logo.png 
+files: ""
+theme: niri
+```
+
+##### Create file 'projects.markdown' in '/' to use page Projects feature
+
+##### copy to projects.markdown
+
+```
+---
+layout: default
+title: Projects
+permalink: /projects/
+---
+YOUR PROJECT
+```
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/Rokhimin/niri. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/rokhimin/jekyll-niri. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
 
 ## Development
 
