@@ -1,11 +1,11 @@
 <footer class="footer">
   <div class="content has-text-centered">
-    <p>Theme <a href="https://github.com/rokhimin/jekyll-niri"><font color="#fff">Niri</font></a> [/code] by {{ site.title }} &copy;{{ site.time | date: '%Y' }}
+    <p>{{ site.footer }} &copy;{{ site.time | date: '%Y' }}
     </p>
     <p>
-      {% if site.twitter_username %}<a href="https://twitter.com/{{ site.twitter_username }}"><font color="#fff">Twitter</font></a>{% endif %}
+      {% if site.twitter_username %}<a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>{% endif %}
        | 
-      {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}"><font color="#fff">Github</font></a>{% endif %}
+      {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}">Github</a>{% endif %}
     </p>
   </div>
 </footer>

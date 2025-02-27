@@ -3,6 +3,7 @@ email: rokhim.whd@gmail.com
 description: Niri Jekyll Theme Blog using Bulma
 baseurl: "" 
 url: "" 
+footer: Theme <a href="https://github.com/rokhimin/jekyll-niri">Niri</a> [/code] by whdzera
 twitter_username: rokhiminwahid
 github_username:  rokhimin
 logo: https://i.ibb.co.com/sdVSmQ5x/niri-logo.png 
