@@ -1,4 +1,17 @@
 
+        /* Chrome, Safari */
+        ::-webkit-scrollbar {
+          width: 15px;
+          height: 15px;
+          }
+          ::-webkit-scrollbar-track-piece  {
+          background-color: #222222;
+          }
+          ::-webkit-scrollbar-thumb:vertical {
+          height: 30px;
+          background-color: #535955;
+          }
+
 :root {
   --text-color: rgb(255, 255, 255);
 }
