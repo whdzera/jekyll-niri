@@ -6,19 +6,19 @@ layout: default
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
     {% if forloop.first %}
-        <h2 class="" id="{{ this_year }}-ref">{{this_year}}</h2>
+        <h3 class="" id="{{ this_year }}-ref">{{this_year}}</h3>
         <ul class="">
     {% endif %}
-        <div class="box">
-            <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-            <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-        </div>
+                <div class="box">
+                    <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+                    <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+                </div>
     {% if forloop.last %}
         </ul>
     {% else %}
         {% if this_year != next_year %}
         </ul>
-        <h2 class="" id="{{ next_year }}-ref">{{next_year}}</h2>
+        <h3 class="" id="{{ next_year }}-ref">{{next_year}}</h3>
         <ul class="">
         {% endif %}
     {% endif %}

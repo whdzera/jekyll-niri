@@ -13,8 +13,9 @@
           }
 
 :root {
-  --text-color: rgb(255, 255, 255);
+  --text-color: rgb(26, 23, 23);
 }
+
 
 html.is-dark {
   --text-color: rgb(138, 138, 138);
@@ -42,27 +43,27 @@ html.is-dark {
 }
 
 html.is-dark .hero {
-  background-color: #63615f;
+  background-color: #161616;
   color: white;
 }
 
 html.is-dark .navbar {
-  background-color: #63615f;
+  background-color: #161616;
   color: white;
 }
 
 html.is-dark .navbar-menu {
-  background-color: #63615f;
+  background-color: #161616;
   color: white;
 }
 
 html.is-dark .footer {
-  background-color: #5c5a58;
+  background-color: #202020;
   color: white;
 }
 
 html.is-dark .box {
-  background-color: #413e3e;
+  background-color: #202020;
   color: white;
 }
 
@@ -71,12 +72,47 @@ html.is-dark .notification {
   color: white;
 }
 
-html.is-dark .button {
-  background-color: #444444;
-  color: white;
-}
 
 html.is-dark .title,
 html.is-dark .subtitle {
   color: white;
 }
+
+
+
+
+html {
+  background-color: #2a2a2a;
+  color: white;
+}
+
+.hero {
+  background-color: #63615f;
+  color: white;
+}
+
+.navbar {
+  background-color: #63615f;
+  color: white;
+}
+
+.navbar-menu {
+  background-color: #63615f;
+  color: white;
+}
+
+.footer {
+  background-color: #6b6865;
+  color: white;
+}
+
+.box {
+  background-color: #444343;
+  color: white;
+}
+
+.notification {
+  background-color: #333333;
+  color: white;
+}
+
