@@ -1,5 +1,8 @@
 <img src="https://i.ibb.co.com/sdVSmQ5x/niri-logo.png" alt="drawing" width="300"/>
 
+[![Gem](https://img.shields.io/gem/v/niri.svg)](https://rubygems.org/gems/niri)
+[![Gem](https://img.shields.io/gem/dt/niri.svg)](https://rubygems.org/gems/niri)
+
 # About
 Theme blog for jekyll using Bulma css.
 
