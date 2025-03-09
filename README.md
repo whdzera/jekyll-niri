@@ -6,7 +6,15 @@
 # About
 Theme blog for jekyll using Bulma css.
 
-Live Demo : https://rokhimin.github.io/jekyll-niri
+Live Demo : https://rokhimin.github.io
+
+## Features
+- Modern UI
+- Dark/Light Mode ( I set default Darkmode first time user open website )
+- Comment (Disqus)
+- Logo
+- Page Projects
+- many more
 
 ## Installation Jekyll
 
@@ -57,8 +65,9 @@ footer: Example Theme <a href="https://github.com/rokhimin/jekyll-niri">Niri</a>
 twitter_username: whdzera
 github_username:  rokhimin
 logo: niri-logo.png 
-files: ""
 theme: niri
+photo_profile: ""
+disqus: ""
 ```
 
 ##### Create file 'projects.markdown' in '/' to use page Projects feature
@@ -67,11 +76,20 @@ theme: niri
 
 ```
 ---
-layout: default
-title: Projects
+layout: projects
 permalink: /projects/
 ---
 YOUR PROJECT
+```
+
+##### edit about.markdown
+
+```
+---
+layout: about
+permalink: /projects/
+---
+YOUR ABOUT
 ```
 
 ## Contributing
