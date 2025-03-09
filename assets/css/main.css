@@ -1,118 +1,297 @@
 
-        /* Chrome, Safari */
-        ::-webkit-scrollbar {
-          width: 15px;
-          height: 15px;
-          }
-          ::-webkit-scrollbar-track-piece  {
-          background-color: #222222;
-          }
-          ::-webkit-scrollbar-thumb:vertical {
-          height: 30px;
-          background-color: #535955;
-          }
-
 :root {
-  --text-color: rgb(26, 23, 23);
+  --primary-color: #6b48ff;
+  --secondary-color: #8075ff;
+  --accent-color: #42b883;
+  --dark-bg: #121212;
+  --dark-card: #1e1e1e;
+  --dark-navbar: #0d0d0d;
+  --dark-footer: #121212;
+  --light-bg: #f9f9f9;
+  --light-card: #ffffff;
+  --light-navbar: #ffffff;
+  --light-footer: #f5f5f5; /* Added a slightly different light footer color */
+  --dark-text: #eaeaea;
+  --light-text: #333333;
+  --shadow: rgba(0, 0, 0, 0.1);
 }
 
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--dark-bg);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+}
 
 html.is-dark {
-  --text-color: rgb(138, 138, 138);
+  --text-color: var(--dark-text);
+  --bg-color: var(--dark-bg);
+  --card-color: var(--dark-card);
+  --navbar-color: var(--dark-navbar);
+  --footer-color: var(--dark-footer); /* Use the new footer color variable */
+  --code-bg: #1e1e1e;
+  --code-text: #ffcc00;
+}
+
+html:not(.is-dark) {
+  --text-color: var(--light-text);
+  --bg-color: var(--light-bg);
+  --card-color: var(--light-card);
+  --navbar-color: var(--light-navbar);
+  --footer-color: var(--light-footer); /* Use the new footer color variable */
+  --code-bg: #555353;
+  --code-text: #ffffff;
 }
 
 body {
+  background-color: var(--bg-color);
   color: var(--text-color);
-}
-
-.title, .subtitle, .content, h1, h2, h3, h4, h5, h6, ul, li, hr {
-  color: var(--text-color);
-}
-
-code {
-  color: #3b43b1;
-}
-
-pre {
-  color: #ff9306;
-}
-
-html.is-dark {
-  background-color: #2a2a2a;
-  color: white;
-}
-
-html.is-dark .hero {
-  background-color: #161616;
-  color: white;
-}
-
-html.is-dark .navbar {
-  background-color: #161616;
-  color: white;
-}
-
-html.is-dark .navbar-menu {
-  background-color: #161616;
-  color: white;
-}
-
-html.is-dark .footer {
-  background-color: #202020;
-  color: white;
-}
-
-html.is-dark .box {
-  background-color: #202020;
-  color: white;
-}
-
-html.is-dark .notification {
-  background-color: #333333;
-  color: white;
-}
-
-
-html.is-dark .title,
-html.is-dark .subtitle {
-  color: white;
-}
-
-
-
-
-html {
-  background-color: #2a2a2a;
-  color: white;
-}
-
-.hero {
-  background-color: #63615f;
-  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .navbar {
-  background-color: #63615f;
+  background-color: var(--navbar-color);
+  box-shadow: 0 2px 10px var(--shadow);
+  transition: background-color 0.3s ease;
+  padding: 0.5rem 1rem;
+}
+
+/* Fix navbar colors for dark mode */
+html.is-dark .navbar,
+html.is-dark .navbar-menu,
+html.is-dark .navbar-item,
+html.is-dark .navbar-link,
+html.is-dark .navbar-burger {
+  background-color: var(--dark-navbar);
+  color: var(--dark-text);
+}
+
+/* Make sure mobile dropdown menu follows dark mode */
+html.is-dark .navbar-menu.is-active {
+  background-color: var(--dark-navbar);
+}
+
+/* Container fix for dark mode */
+html.is-dark .container {
+  background-color: transparent;
+}
+
+.navbar-item {
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-item.is-active, 
+.navbar-item:hover {
+  background-color: transparent !important;
+  color: var(--primary-color) !important;
+}
+
+/* Fix for hamburger menu in dark mode */
+html.is-dark .navbar-burger span {
+  background-color: var(--dark-text);
+}
+
+.hero {
+  background-color: transparent;
+  padding: 0;
+  min-height: calc(100vh - 140px);
+}
+
+.hero-body {
+  padding: 3rem 1.5rem;
+}
+
+.post-card {
+  background-color: var(--card-color);
+  border-radius: 12px;
+  box-shadow: 0 5px 15px var(--shadow);
+  transition: all 0.3s ease;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px var(--shadow);
+}
+
+.post-card-header {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  padding: 1.5rem;
   color: white;
 }
 
-.navbar-menu {
-  background-color: #63615f;
+.post-card-header h4 {
+  color: white !important;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.post-card-header a {
+  color: white;
+  text-decoration: none;
+}
+
+.post-card-content {
+  padding: 1.5rem;
+  flex-grow: 1;
+}
+
+.post-date {
+  font-size: 0.9rem;
+  color: var(--accent-color);
+  font-weight: 500;
+}
+
+.year-divider {
+  position: relative;
+  padding-left: 1rem;
+  margin: 3rem 0 2rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 0.5rem;
+}
+
+.toggle-button {
+  background-color: transparent;
+  border: 2px solid var(--secondary-color);
+  color: var(--secondary-color);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.toggle-button:hover {
+  background-color: var(--secondary-color);
   color: white;
 }
 
+/* Updated footer styling */
 .footer {
-  background-color: #6b6865;
-  color: white;
+  background-color: var(--footer-color);  /* Use the footer color variable */
+  padding: 3rem 1.5rem;
+  transition: background-color 0.3s ease;
 }
 
-.box {
-  background-color: #444343;
-  color: white;
+.footer a {
+  color: var(--primary-color);
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 
-.notification {
-  background-color: #333333;
-  color: white;
+.footer a:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
 }
 
+.content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.category-tag {
+  background-color: var(--accent-color);
+  color: white;
+  border-radius: 20px;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-right: 0.5rem;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .post-card-header h4 {
+    font-size: 1.2rem;
+  }
+  
+  .year-divider {
+    font-size: 1.5rem;
+  }
+  
+  /* Target mobile navbar components */
+  html.is-dark .navbar,
+  html.is-dark .navbar-brand,
+  html.is-dark .navbar-menu,
+  html.is-dark .navbar-item,
+  html.is-dark .container,
+  html.is-dark div[class^="navbar"] {
+    background-color: var(--dark-navbar) !important;
+  }
+
+  /* Target footer in dark mode */
+  html.is-dark .footer {
+    background-color: var(--dark-footer) !important;
+  }
+}
+
+/* Stylish code block styling */
+code {
+  font-family: 'Fira Code', 'Courier New', monospace;
+  font-size: 14px;
+  background-color:  var(--code-bg);
+  color:  var(--code-text);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+pre {
+  background-color: var(--code-bg);
+  color: var(--code-text);
+  padding: 16px;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-family: 'Fira Code', 'Courier New', monospace;
+  font-size: 14px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+pre code {
+  background: none;
+  color: inherit;
+  padding: 0;
+}
+/* Rouge Syntax Highlighting for Jekyll */
+pre.highlight { background-color: #1e1e1e; color: #ffffff; padding: 16px; border-radius: 8px; overflow-x: auto; }
+pre.highlight code { background: none; color: inherit; padding: 0; }
+
+/* Token Styles for Rouge */
+.highlight .k { color: #c792ea; } /* Keyword */
+.highlight .s { color: #a5e844; } /* String */
+.highlight .nf { color: #82aaff; } /* Function */
+.highlight .c { color: #697098; font-style: italic; } /* Comment */
+.highlight .o { color: #89ddff; } /* Operator */
+.highlight .p { color: #ffffff; } /* Punctuation */
+
+/* Ruby-specific */
+.highlight .nc { color: #ffcb6b; } /* Class */
+.highlight .nf { color: #82aaff; } /* Method */
+.highlight .ss { color: #f78c6c; } /* Symbol */
+.highlight .no { color: #ff5370; } /* Constant */
+.highlight .nv { color: #c3e88d; } /* Variable */
+.highlight .mi { color: #f78c6c; } /* Number */
+.highlight .kc { color: #ff5370; } /* Boolean */
+.highlight .kp { color: #ff5370; } /* Nil */

@@ -1,9 +1,7 @@
 ---
-layout: default
-title: Projects
+layout: projects
 permalink: /projects/
 ---
-<h1>Projects</h1>
 <div class="content is-large">
     <li><a href="https://github.com/rokhimin/">Lorem ipsum </a><small> (primis convallis imperdiet vivamus)</small></li>
     <li><a href="https://github.com/rokhimin/">IMalesuada suspendisse</a> (consectetuer adipiscing elit)</small></li>

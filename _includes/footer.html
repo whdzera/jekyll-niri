@@ -1,12 +1,24 @@
+
+<div class="content-container">
+<div class="year-divider" id=""></div>
+</div>
 <footer class="footer">
-  <div class="content has-text-centered">
-    <p>{{ site.footer }} &copy;{{ site.time | date: '%Y' }}
-    </p>
-    <p>
-      {% if site.twitter_username %}<a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>{% endif %}
-       | 
-      {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}">Github</a>{% endif %}
-    </p>
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>{{ site.footer }} &copy;{{ site.time | date: '%Y' }}</p>
+      <p>
+        {% if site.twitter_username %}
+        <a href="https://twitter.com/{{ site.twitter_username }}">
+          <span class="icon"><i class="fab fa-twitter"></i></span> Twitter
+        </a>
+        {% endif %}
+        {% if site.twitter_username and site.github_username %} | {% endif %}
+        {% if site.github_username %}
+        <a href="https://github.com/{{ site.github_username }}">
+          <span class="icon"><i class="fab fa-github"></i></span> Github
+        </a>
+        {% endif %}
+      </p>
+    </div>
   </div>
 </footer>
-

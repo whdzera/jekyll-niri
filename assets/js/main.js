@@ -1,4 +1,6 @@
+
 document.addEventListener("DOMContentLoaded", function () {
+  // Theme toggle functionality
   const toggleButton = document.getElementById("toggle-button");
   const themeIcon = document.getElementById("theme-icon");
   const currentTheme = localStorage.getItem("theme");
@@ -21,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  // Perbarui ikon sesuai mode awal
+  // Update icon based on initial mode
   updateIcon();
 
   toggleButton.addEventListener("click", () => {
@@ -35,4 +37,30 @@ document.addEventListener("DOMContentLoaded", function () {
       updateIcon();
     });
   });
+
+  // Mobile navbar toggle
+  const navbarBurger = document.querySelector('.navbar-burger');
+  if (navbarBurger) {
+    navbarBurger.addEventListener('click', () => {
+      const target = document.getElementById(navbarBurger.dataset.target);
+      navbarBurger.classList.toggle('is-active');
+      target.classList.toggle('is-active');
+    });
+  }
+  
+  // Add animation to cards on scroll
+  const animateOnScroll = () => {
+    const cards = document.querySelectorAll('.post-card');
+    cards.forEach(card => {
+      const cardTop = card.getBoundingClientRect().top;
+      const windowHeight = window.innerHeight;
+      if (cardTop < windowHeight * 0.9) {
+        card.classList.add('animate__fadeIn');
+        card.style.opacity = 1;
+      }
+    });
+  };
+  
+  window.addEventListener('scroll', animateOnScroll);
+  animateOnScroll(); // Run on initial load
 });

@@ -3,28 +3,15 @@
   {% include head.html %}
   <body>
     {% include navigation.html %}
-
-    <div class="hero is-fullheight">
-        <div class="hero-body">
-            <div class="container">
-                <div class="columns is-centered">
-                    <div class="column is-one-two">
-                        <div action="" class="box">
-
-                            <div class="field">
-                              <div class="content">
-                                {{ content }}
-                              </div>
-                                
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    <div class="hero">
+      <div class="hero-body">
+          <div class="content-container">
+              
+                {{ content }}
+                  
+          </div>
+      </div>
+  </div>
     {% include footer.html %}
   </body>
 </html>
