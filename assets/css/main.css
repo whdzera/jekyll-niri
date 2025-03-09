@@ -86,6 +86,10 @@ html.is-dark .container {
   background-color: transparent;
 }
 
+.navbar-menu {
+  background-color: var(--navbar-color);
+}
+
 .navbar-item {
   font-weight: 500;
   transition: color 0.3s ease;
