@@ -5,9 +5,13 @@ layout: default
 </h1>
 <p>{{ page.date | date: "%Y-%m-%d" }}</p>
 <div class="year-divider" id=""></div>
+<div class="content">
 {{ content }}
+</div>
 <br>
 <br>
+{% if page.comments %} 
+
 <div id="disqus_thread"></div>
 <script>
 var disqus_config = function () {
@@ -22,3 +26,5 @@ var disqus_config = function () {
     (d.head || d.body).appendChild(s);
 })();
 </script>
+
+{% endif %}
