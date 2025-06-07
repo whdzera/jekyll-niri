@@ -6,8 +6,6 @@
 # About
 Theme blog for jekyll using Bulma css.
 
-Live Demo : https://rokhimin.github.io
-
 ## Features
 - Modern UI
 - Dark/Light Mode ( I set default Darkmode first time user open website )
@@ -61,9 +59,9 @@ email: youremail@gmail.com
 description: yourdesc
 baseurl: "" 
 url: "" 
-footer: Example Theme <a href="https://github.com/rokhimin/jekyll-niri">Niri</a> [/code] by whdzera
+footer: Example Theme <a href="https://github.com/whdzera/jekyll-niri">Niri</a> [/code] by whdzera
 twitter_username: whdzera
-github_username:  rokhimin
+github_username: whdzera
 logo: niri-logo.png 
 theme: niri
 photo_profile: ""
@@ -94,7 +92,7 @@ YOUR ABOUT
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/rokhimin/jekyll-niri. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/whdzera/jekyll-niri. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
 
 ## Development
 
